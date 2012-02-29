@@ -26,7 +26,7 @@ Jeweler::Tasks.new do |gem|
   gem.add_runtime_dependency 'redis',   '>= 2.0'
   gem.add_runtime_dependency 'vegas',   '>= 0.1.0'
   gem.add_runtime_dependency 'sinatra', '>= 1.0'
-  gem.add_runtime_dependency 'json',    '~> 1.4.6'
+  gem.add_runtime_dependency 'json',    '> 1.4.6'
   #  gem.add_development_dependency 'rspec', '> 1.2.3'
 end
 Jeweler::RubygemsDotOrgTasks.new
